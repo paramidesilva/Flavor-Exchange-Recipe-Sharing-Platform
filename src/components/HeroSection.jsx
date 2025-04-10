@@ -36,10 +36,10 @@ const HeroSection = () => {
         transition: 'background-image 1s ease-in-out',
       }}
     >
-      {/* Left Box with Green Outline and No 3D Look */}
+      
       <Box
         sx={{
-          width: { xs: '80%', sm: '60%', md: '40%' }, // Adjust the width based on screen size
+          width: { xs: '80%', sm: '60%', md: '40%' }, 
           backgroundColor: 'white',
           padding: '30px',
           borderRadius: '12px',
@@ -55,7 +55,7 @@ const HeroSection = () => {
             letterSpacing: 1,
             textTransform: 'uppercase',
             color: 'green',
-            fontSize: { xs: '16px', sm: '18px', md: '20px' }, // Responsive font size
+            fontSize: { xs: '16px', sm: '18px', md: '20px' }, 
             textShadow: 'none',
           }}
         >
@@ -65,7 +65,7 @@ const HeroSection = () => {
           variant="h2"
           sx={{
             marginBottom: '20px',
-            fontSize: { xs: '28px', sm: '32px', md: '36px' }, // Responsive font size
+            fontSize: { xs: '28px', sm: '32px', md: '36px' }, 
             color: 'black',
             textShadow: 'none',
           }}
@@ -76,7 +76,7 @@ const HeroSection = () => {
           variant="body2"
           sx={{
             marginBottom: '20px',
-            fontSize: { xs: '14px', sm: '16px', md: '18px' }, // Responsive font size
+            fontSize: { xs: '14px', sm: '16px', md: '18px' }, 
             color: 'black',
             textShadow: 'none',
           }}

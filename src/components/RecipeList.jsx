@@ -1,4 +1,3 @@
-// components/RecipeList.jsx
 
 import React from 'react'
 import { Button, Card, CardContent, Typography, Box } from '@mui/material'
@@ -20,7 +19,7 @@ const RecipeList = ({ recipes, deleteRecipe }) => {
             <Button
               variant="contained"
               color="secondary"
-              onClick={() => deleteRecipe(recipe.id)} // Delete button
+              onClick={() => deleteRecipe(recipe.id)} 
             >
               Delete
             </Button>

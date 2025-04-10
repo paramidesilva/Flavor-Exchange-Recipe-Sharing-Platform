@@ -1,5 +1,3 @@
-// src/pages/Favorites.jsx
-
 import React, { useEffect, useState } from 'react';
 import { getFavorites } from '../utils/favoriteStorage';
 import { Box, Grid, Typography, Card, CardMedia, CardContent } from '@mui/material';

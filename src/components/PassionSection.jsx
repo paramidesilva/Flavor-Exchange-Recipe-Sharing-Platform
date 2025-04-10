@@ -1,9 +1,7 @@
-// src/components/PassionSection.jsx
-
 
 import React, { useState, useEffect } from 'react';
 import { Box, Button, Typography } from '@mui/material';
-import passionImg from '../assets/passionImg.webp'; // Ensure the image path is correct
+import passionImg from '../assets/passionImg.webp'; 
 
 const PassionSection = () => {
   const [inView, setInView] = useState(false);

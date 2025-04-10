@@ -1,8 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { motion } from "framer-motion";
-
-// Sample image URLs — replace with your actual images or assets
+ 
 const images = [
   "https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/bc597f71-477b-43b7-38c9-9b8cd9d36e00/public",
   "https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/aeff07d6-c711-47c3-d965-a526caf3e900/public",
@@ -32,7 +31,7 @@ const CulinaryShowcase = () => {
           Contribute your unique recipes and connect with others passionate about cooking. Your culinary narratives, whether traditional or innovative, add depth to our community, inviting fellow food lovers to savor every creation.
         </Typography>
 
-        {/* IMAGE GRID WITH ENHANCED ANIMATIONS */}
+        {/* IMAGE GRID WITH  ANIMATIONS */}
         <Box
           display="grid"
           gridTemplateColumns="repeat(3, 1fr)"

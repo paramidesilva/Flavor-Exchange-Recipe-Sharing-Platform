@@ -32,12 +32,12 @@ const EditRecipe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const updatedRecipe = { ...recipe, title, ingredients, instructions, image: imageUrl };
-    updateRecipe(updatedRecipe); // Update the recipe
-    navigate('/recipes'); // Redirect after updating
+    updateRecipe(updatedRecipe); 
+    navigate('/recipes'); 
   };
 
   if (loading) {
-    return <Typography>Loading...</Typography>; // Show loading state while data is being fetched
+    return <Typography>Loading...</Typography>; 
   }
 
   return (

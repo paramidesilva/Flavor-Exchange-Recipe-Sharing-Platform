@@ -185,7 +185,7 @@ const CreateRecipe = ({ addRecipe }) => {
         </motion.div>
       </Box>
 
-      {/* ✅ Success Snackbar */}
+      {/* Success Snackbar */}
       <Snackbar
         open={showSuccess}
         autoHideDuration={1800}

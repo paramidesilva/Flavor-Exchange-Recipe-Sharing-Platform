@@ -1,4 +1,3 @@
-// src/utils/favoriteStorage.js
 
 const FAVORITES_KEY = 'favoriteRecipes';
 

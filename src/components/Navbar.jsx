@@ -15,7 +15,7 @@ import {
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import MenuIcon from '@mui/icons-material/Menu'; // Added MenuIcon for the hamburger menu
+import MenuIcon from '@mui/icons-material/Menu'; //  MenuIcon for the hamburger menu
 
 const Navbar = () => {
   const [recipeAnchor, setRecipeAnchor] = useState(null);
@@ -23,7 +23,7 @@ const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const { user, logout } = useContext(AuthContext);
   const navigate = useNavigate();
-  const isSmallScreen = useMediaQuery('(max-width: 600px)'); // Check for small screen
+  const isSmallScreen = useMediaQuery('(max-width: 600px)'); 
 
   const openRecipeMenu = (e) => setRecipeAnchor(e.currentTarget);
   const closeRecipeMenu = () => setRecipeAnchor(null);
@@ -42,7 +42,7 @@ const Navbar = () => {
     <>
       <AppBar position="static" sx={{ background: '#fff', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
         <Toolbar sx={{ justifyContent: 'space-between', padding: '0 30px' }}>
-          {/* Left - Brand Name */}
+          {/*  Brand Name */}
           <Typography
             variant="h6"
             component={Link}
@@ -58,7 +58,7 @@ const Navbar = () => {
             Flavor Exchange
           </Typography>
 
-          {/* If it's a small screen, show hamburger menu */}
+          {/* If it's a small screen */}
           {isSmallScreen ? (
             <IconButton color="primary" onClick={() => toggleDrawer(true)}>
               <MenuIcon />
@@ -92,7 +92,7 @@ const Navbar = () => {
             </Stack>
           )}
 
-          {/* Right - User Profile Section */}
+          {/* User Profile Section */}
           <Stack direction="row" spacing={2} alignItems="center">
             {user ? (
               <>

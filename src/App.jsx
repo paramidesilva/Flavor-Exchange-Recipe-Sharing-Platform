@@ -1,4 +1,3 @@
-// App.jsx
 
 import { Routes, Route } from 'react-router-dom'
 import RecipeFeed from './pages/RecipeFeed'
@@ -36,7 +35,7 @@ const App = () => {
           }
         />
 
-        {/* Public Routes */}
+        
         <Route path="/recipes" element={<RecipeFeed />} />
         <Route path="/recipe/:id" element={<RecipeDetails />} />
         <Route path="/login" element={<Login />} />
